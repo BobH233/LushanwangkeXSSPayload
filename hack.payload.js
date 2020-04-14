@@ -9,9 +9,9 @@
         param:
             areaId	86
             cid	0
-            uname	15023339212
+            uname	xxx
             areaCode	86
-            password	1314520
+            password	xxx
             submit	登录
         respon:
             Failed: html
